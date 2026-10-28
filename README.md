@@ -57,6 +57,6 @@ python tools/plot_sbma.py
 
 完整 XTC 留存在原计算工作站，未上传；原始存帧间隔为 0.1 ps，本批 RDF 每 10 ps、输运与接触每 1 ps 均匀取帧。需要完整轨迹时联系仓库维护者。
 
-发布副本将文本中的本机目录作占位替换，不改变拓扑物理参数、MDP、TPR、GRO 和 EDR 数值。`published_files.sha256` 对应本次发布副本；审查问题可直接在 [Issues](https://github.com/swucb/polymer-thermocell-md/issues) 中提出。
+发布副本将文本中的本机目录作占位替换，不改变拓扑物理参数、MDP、TPR、GRO 和 EDR 数值。`published_files.sha256` 对应本次发布副本；审查问题可直接在 [Issues](https://github.com/swucb/polythermomd/issues) 中提出。
 
 `输入校验清单.json`记录原文件哈希；路径脱敏后的日志可能不同。核对公开副本请使用根目录的`published_files.sha256`。
