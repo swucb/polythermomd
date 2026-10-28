@@ -1,0 +1,48 @@
+{
+  "id": "SBMA_1.0g",
+  "production_ns": 10,
+  "temperature_K": 298,
+  "dt_ps": 0.0005,
+  "independent_replica": 1,
+  "source": "${WORKSTATION_PROJECT}/network_opls_resp_spce_20261002/SBMA_1.0g",
+  "physical_validation": false,
+  "authorized": "User 2026-10-27: start SBMA and CBMA, 20 ns",
+  "status": "production_complete",
+  "stage_started": "2026-10-28T01:11:14.171613",
+  "duration_update": "User 2026-10-27: reduce production to 10 ns; retain equilibration progress",
+  "equilibration_block_means": [
+    {
+      "Potential": -1015968.1782684631,
+      "Temperature": 298.1393644011976,
+      "Density": 1251.0087873752495
+    },
+    {
+      "Potential": -1017291.0096057884,
+      "Temperature": 297.7663131996008,
+      "Density": 1250.8128708363274
+    },
+    {
+      "Potential": -1017748.8657684631,
+      "Temperature": 297.9554920778443,
+      "Density": 1251.0687180279442
+    },
+    {
+      "Potential": -1017843.4639471058,
+      "Temperature": 298.109962994012,
+      "Density": 1250.6248740399203
+    },
+    {
+      "Potential": -1018189.1706586826,
+      "Temperature": 298.1434481437126,
+      "Density": 1250.676931299401
+    }
+  ],
+  "operational_gate": {
+    "temperature_ok": true,
+    "density_relative_span": 0.00035488300528799623,
+    "potential_relative_span": 0.0004324391801718253,
+    "note": "Operational stationarity screen, not proof of full structural equilibration or physical validation"
+  },
+  "production_volume_source": "eq_npt_05.gro",
+  "completed": "2026-10-28T07:24:08.813345"
+}

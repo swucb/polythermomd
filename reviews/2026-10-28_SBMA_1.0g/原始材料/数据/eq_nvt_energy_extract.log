@@ -1,0 +1,71 @@
+                      :-) GROMACS - gmx energy, 2025.4 (-:
+
+Executable:   ${WORKSTATION_PROJECT}/software/gromacs-2025.4/bin/gmx
+Data prefix:  ${WORKSTATION_PROJECT}/software/gromacs-2025.4
+Working dir:  ${WORKSTATION_PROJECT}/sbma_results_20261028
+Command line:
+  gmx energy -f ${WORKSTATION_PROJECT}/production_sbma_cbma_20261027/SBMA_1.0g/eq_nvt.edr -o ${WORKSTATION_PROJECT}/sbma_results_20261028/results/eq_nvt_energy.xvg
+
+Opened ${WORKSTATION_PROJECT}/production_sbma_cbma_20261027/SBMA_1.0g/eq_nvt.edr as single precision energy file
+
+Select the terms you want from the following list by
+selecting either (part of) the name or the number or a combination.
+End your selection with an empty line or a zero.
+-------------------------------------------------------------------
+  1  Bond             2  Angle            3  Ryckaert-Bell.   4  Improper-Dih. 
+  5  Per.-Imp.-Dih.   6  LJ-14            7  Coulomb-14       8  LJ-(SR)       
+  9  Disper.-corr.   10  Coulomb-(SR)    11  Coul.-recip.    12  Potential     
+ 13  Kinetic-En.     14  Total-Energy    15  Conserved-En.   16  Temperature   
+ 17  Pres.-DC        18  Pressure        19  Constr.-rmsd    20  Vir-XX        
+ 21  Vir-XY          22  Vir-XZ          23  Vir-YX          24  Vir-YY        
+ 25  Vir-YZ          26  Vir-ZX          27  Vir-ZY          28  Vir-ZZ        
+ 29  Pres-XX         30  Pres-XY         31  Pres-XZ         32  Pres-YX       
+ 33  Pres-YY         34  Pres-YZ         35  Pres-ZX         36  Pres-ZY       
+ 37  Pres-ZZ         38  #Surf*SurfTen   39  T-System        40  Lamb-System   
+
+String 'Density' does not match anything
+
+Back Off! I just backed up ${WORKSTATION_PROJECT}/sbma_results_20261028/results/eq_nvt_energy.xvg to ${WORKSTATION_PROJECT}/sbma_results_20261028/results/#eq_nvt_energy.xvg.4#
+
+Reading energy frame      0 time    0.000         
+Reading energy frame      1 time    1.000         
+Reading energy frame      2 time    2.000         
+Reading energy frame      3 time    3.000         
+Reading energy frame      4 time    4.000         
+Reading energy frame      5 time    5.000         
+Reading energy frame      6 time    6.000         
+Reading energy frame      7 time    7.000         
+Reading energy frame      8 time    8.000         
+Reading energy frame      9 time    9.000         
+Reading energy frame     10 time   10.000         
+Reading energy frame     11 time   11.000         
+Reading energy frame     12 time   12.000         
+Reading energy frame     13 time   13.000         
+Reading energy frame     14 time   14.000         
+Reading energy frame     15 time   15.000         
+Reading energy frame     16 time   16.000         
+Reading energy frame     17 time   17.000         
+Reading energy frame     18 time   18.000         
+Reading energy frame     19 time   19.000         
+Reading energy frame     20 time   20.000         
+Reading energy frame     30 time   30.000         
+Reading energy frame     40 time   40.000         
+Reading energy frame     50 time   50.000         
+Reading energy frame     60 time   60.000         
+Reading energy frame     70 time   70.000         
+Reading energy frame     80 time   80.000         
+Reading energy frame     90 time   90.000         
+Reading energy frame    100 time  100.000         
+Last energy frame read 100 time  100.000         
+
+GROMACS reminds you: "I Don't Like Dirt" (The Breeders)
+
+
+Statistics over 200001 steps [ 0.0000 through 100.0000 ps ], 3 data sets
+All statistics are over 2001 points
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Potential                -1.01266e+06        170     655.46   -1090.79  (kJ/mol)
+Temperature                 297.492       0.17    1.49737   0.856756  (K)
+Pressure                   -125.301         17    204.583    5.91156  (bar)

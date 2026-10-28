@@ -1,0 +1,242 @@
+[
+  {
+    "file": "SBMA_1.0g/eq_npt_01.edr",
+    "bytes": 637392,
+    "sha256": "dcce66f4f7f319304ec96833351981658cc5cbfc38dbd201c90ba5e6cbe56829"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_01.log",
+    "bytes": 92664,
+    "sha256": "e4d99daeb8422dc3a7e21249d384d255b89b776056abff5e26d0321467f974c7"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_01.mdp",
+    "bytes": 601,
+    "sha256": "d0615de0b0614b5241732515279d05d0703933cbd7b6fa97aa7a8b7f91663548"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_01_console.log",
+    "bytes": 1793,
+    "sha256": "33807d6a74d996392d8098dc6cbb5196daa03185a619fc13a01a22885b9600b3"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_01_energy.log",
+    "bytes": 4752,
+    "sha256": "33460868802a1132a80dc23b2749959417e96a1ae8d7b5c04021e9bced3636d2"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_01_grompp.log",
+    "bytes": 2017,
+    "sha256": "8efc02a60e33a73d6020198e967025649e659c990ca85c9a458fde66df204368"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_02.edr",
+    "bytes": 637392,
+    "sha256": "d304cb5d77896afdff0e53a144d564912c5876a71c636aad7a17dcae1ca34cef"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_02.log",
+    "bytes": 93358,
+    "sha256": "a635791de6b992ab25bdefa8fd787f4df934f04cddb8d63ae582f3888a916c8b"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_02.mdp",
+    "bytes": 601,
+    "sha256": "d0615de0b0614b5241732515279d05d0703933cbd7b6fa97aa7a8b7f91663548"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_02_console.log",
+    "bytes": 1786,
+    "sha256": "ad90c8040807c5dd8b83290872275975e92b4a196fca8c67c3fec7030db47388"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_02_energy.log",
+    "bytes": 4596,
+    "sha256": "2be2209e7a06aa4011681570bd50ee90e5d6bfa9893f648ef941814e1801544e"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_02_grompp.log",
+    "bytes": 2061,
+    "sha256": "ee0255104566fd5698f3d789bbfb73d693cdfc7533c77699270be1fce90ce73e"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_03.edr",
+    "bytes": 637392,
+    "sha256": "e349dcd6076dd29507ef745b24b070c305651223cb661f38e0736a28e245b4cc"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_03.log",
+    "bytes": 92114,
+    "sha256": "088d5cff29c750a78e13cbe1a95cf70bd9c1b0ad4d49ff8cc2a1aef10711600b"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_03.mdp",
+    "bytes": 601,
+    "sha256": "d0615de0b0614b5241732515279d05d0703933cbd7b6fa97aa7a8b7f91663548"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_03_console.log",
+    "bytes": 1807,
+    "sha256": "a8cdf1f873dfbca5e62a833697ac88b7ef243f07bcdda2c6d6c5e8fab84be29c"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_03_energy.log",
+    "bytes": 4616,
+    "sha256": "36bebcda8e0d16d68f63fc65ae9bf5be53c66d7742d122e8d382c2ac0f2d9cf0"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_03_grompp.log",
+    "bytes": 2062,
+    "sha256": "3a275aa9949bd04b06e4ffc9e181961c7978188cbd60fac220fcb6ec28e43c6a"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_04.edr",
+    "bytes": 637392,
+    "sha256": "376bb7bbec0f6c918f49c876fbe93571462f100fd20209fdfbfbfbdfccfcaa78"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_04.log",
+    "bytes": 92740,
+    "sha256": "6b7bb52d35e74cd0ee9135c96f32fcce245710049d92141f325935f527c855a0"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_04.mdp",
+    "bytes": 601,
+    "sha256": "d0615de0b0614b5241732515279d05d0703933cbd7b6fa97aa7a8b7f91663548"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_04_console.log",
+    "bytes": 1827,
+    "sha256": "354532a3770e09edaea84266dc98ff6a5da64f7a960832527581d353984d1bc2"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_04_energy.log",
+    "bytes": 4637,
+    "sha256": "9483fd4a4d6081ccff12b1eb52af5c08a3cc59fe9353f7285a54a3203c3cd2f0"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_04_grompp.log",
+    "bytes": 2035,
+    "sha256": "b8b20233f1012a9eca76142751af8d39e5b49af3d43191e7cc9019ce1938ddbd"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_05.edr",
+    "bytes": 637392,
+    "sha256": "dd4fb7dd2d5f0a6c1e2b1f3b7e0e6539c1fb3ee9f89d3fe27c1e45c94093976c"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_05.gro",
+    "bytes": 2514019,
+    "sha256": "945c0dd4283d47f5242cc554dd9e555b4b6899d39ba6769cecb36ee358f45560"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_05.log",
+    "bytes": 92599,
+    "sha256": "72d0e449accf01ee47f989cd36ab7fe49a2f41646420807af56e82996226f040"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_05.mdp",
+    "bytes": 601,
+    "sha256": "d0615de0b0614b5241732515279d05d0703933cbd7b6fa97aa7a8b7f91663548"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_05_console.log",
+    "bytes": 1895,
+    "sha256": "fffb538d8bf4c3c6bcc4562b6926207958aabf13dae48e611c77c2e83db35707"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_05_energy.log",
+    "bytes": 4705,
+    "sha256": "fb8c5eeb82b5f6563ce7ff36558187a00a121be6d3518e1064ca301c79329fc8"
+  },
+  {
+    "file": "SBMA_1.0g/eq_npt_05_grompp.log",
+    "bytes": 2039,
+    "sha256": "8005b548531bafa074359d3a770a2d9e796e65bf6f855795d339a9e55032e080"
+  },
+  {
+    "file": "SBMA_1.0g/eq_nvt.edr",
+    "bytes": 56416,
+    "sha256": "ea531366177cf32415d99ddf942d2fe7b31cb73f481c3ac56f88cb6d73bcec25"
+  },
+  {
+    "file": "SBMA_1.0g/eq_nvt.log",
+    "bytes": 32156,
+    "sha256": "3a79b4ed90ac22edbddfb3b09f4119b00ff08f8c9c057134d708e28785c9ed42"
+  },
+  {
+    "file": "SBMA_1.0g/eq_nvt.mdp",
+    "bytes": 556,
+    "sha256": "639e5caba0e097d35d42f963643b9227ed014884e6871c899ae4218665863deb"
+  },
+  {
+    "file": "SBMA_1.0g/eq_nvt_console.log",
+    "bytes": 1839,
+    "sha256": "c77a7b2bd367459c1b451d35a541a0f270157fc84d6a25a663ca9ee57cef35f7"
+  },
+  {
+    "file": "SBMA_1.0g/eq_nvt_grompp.log",
+    "bytes": 1887,
+    "sha256": "45ad8850efd172ac212a820ea0e4dd00bc34bc6f4e83eb48f88710b8fe3ef394"
+  },
+  {
+    "file": "SBMA_1.0g/mdout.mdp",
+    "bytes": 11076,
+    "sha256": "32596ffddc4654e344ad97007809608b2faad55c2051a9644097c85c9f2cc264"
+  },
+  {
+    "file": "SBMA_1.0g/network.itp",
+    "bytes": 2594786,
+    "sha256": "2cd3db2dbde46af4e4cb5f977a08551cef52ee39ef523bacdd2153dc45231c54"
+  },
+  {
+    "file": "SBMA_1.0g/prod_10ns.edr",
+    "bytes": 5521216,
+    "sha256": "c1998e6523fb4a51ee5f86f3e8eaaccf9d204b5ce852262b128724a62bfba41b"
+  },
+  {
+    "file": "SBMA_1.0g/prod_10ns.gro",
+    "bytes": 2514019,
+    "sha256": "dd90a703604f8e36ec3207bf280d538f78c970982db2a30b1699784076faf2a4"
+  },
+  {
+    "file": "SBMA_1.0g/prod_10ns.log",
+    "bytes": 690807,
+    "sha256": "2d424798062f811086515acf77e9b03215d36b80a8e0ae9b8636739f8c47e01a"
+  },
+  {
+    "file": "SBMA_1.0g/prod_10ns.mdp",
+    "bytes": 522,
+    "sha256": "41de0ad279d0aea7d20bc5d6005c9ec71fe49df806a0de1531246c9e42ff26e4"
+  },
+  {
+    "file": "SBMA_1.0g/prod_10ns.tpr",
+    "bytes": 2999292,
+    "sha256": "e6e2965522c952dba6ba368093e2a0400a8f20c0e6a4a5f3cc0e64ec631063fc"
+  },
+  {
+    "file": "SBMA_1.0g/prod_10ns_console.log",
+    "bytes": 1879,
+    "sha256": "a177812892c6a53f0e5af296a4b05698331a43706a544752100337aeaba58bdb"
+  },
+  {
+    "file": "SBMA_1.0g/prod_10ns_grompp.log",
+    "bytes": 2210,
+    "sha256": "988a63177f50f4cd8bd1fe24bb801cdbca3ffe69806dc87601ec746ecc8d75cc"
+  },
+  {
+    "file": "SBMA_1.0g/start.gro",
+    "bytes": 2514019,
+    "sha256": "e6691838ceb20181d9540f9f69c7745a0e88b101ed30e0d8a028ee5cba05dca0"
+  },
+  {
+    "file": "SBMA_1.0g/state.json",
+    "bytes": 1519,
+    "sha256": "d03c745a8ff97d1e7aa991bef419ddbfad87d0896196099df103cb6bb904c9c0"
+  },
+  {
+    "file": "SBMA_1.0g/topol.top",
+    "bytes": 333,
+    "sha256": "c9d8b507f2f27d42f66a287a0aa7e937f8832b4970755b8c2e4bc16c094d5ac5"
+  }
+]

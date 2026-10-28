@@ -1,0 +1,17 @@
+#include "../library/forcefield.itp"
+#include "network.itp"
+#include "../library/FC3.itp"
+#include "../library/FC4.itp"
+#include "../library/K.itp"
+#include "../library/NA.itp"
+#include "../library/CL.itp"
+#include "../library/SOL.itp"
+
+[ system ]
+OPLS RESP SPC-E migration candidate
+[ molecules ]
+NET 1
+FC3 62
+FC4 62
+K 434
+SOL 8558

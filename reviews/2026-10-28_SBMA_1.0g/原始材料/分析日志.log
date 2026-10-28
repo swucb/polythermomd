@@ -1,0 +1,33 @@
+18:52:19 energies extracted
+18:52:19 RDF done; contact / transport stream starts
+18:52:19 contact/transport frame 0/10001
+18:52:28 contact/transport frame 1000/10001
+18:52:36 contact/transport frame 2000/10001
+18:52:45 contact/transport frame 3000/10001
+18:52:54 contact/transport frame 4000/10001
+18:53:03 contact/transport frame 5000/10001
+18:53:11 contact/transport frame 6000/10001
+18:53:20 contact/transport frame 7000/10001
+18:53:29 contact/transport frame 8000/10001
+18:53:38 contact/transport frame 9000/10001
+18:53:46 contact/transport frame 10000/10001
+18:53:49 contacts complete; FFT MSD
+18:53:49 MSD FC3 done
+18:53:50 MSD FC4 done
+18:53:51 MSD K done
+18:54:30 MSD water done
+${WORKSTATION_PROJECT}/envs/polymer-analysis/lib/python3.12/site-packages/MDAnalysis/coordinates/PDB.py:1282: UserWarning: Found no information for attr: 'altLocs' Using default value of ' '
+  warnings.warn(
+${WORKSTATION_PROJECT}/envs/polymer-analysis/lib/python3.12/site-packages/MDAnalysis/coordinates/PDB.py:1282: UserWarning: Found no information for attr: 'icodes' Using default value of ' '
+  warnings.warn(
+${WORKSTATION_PROJECT}/envs/polymer-analysis/lib/python3.12/site-packages/MDAnalysis/coordinates/PDB.py:1282: UserWarning: Found no information for attr: 'occupancies' Using default value of '1.0'
+  warnings.warn(
+${WORKSTATION_PROJECT}/envs/polymer-analysis/lib/python3.12/site-packages/MDAnalysis/coordinates/PDB.py:1282: UserWarning: Found no information for attr: 'tempfactors' Using default value of '0.0'
+  warnings.warn(
+${WORKSTATION_PROJECT}/envs/polymer-analysis/lib/python3.12/site-packages/MDAnalysis/coordinates/PDB.py:1282: UserWarning: Found no information for attr: 'record_types' Using default value of 'ATOM'
+  warnings.warn(
+${WORKSTATION_PROJECT}/envs/polymer-analysis/lib/python3.12/site-packages/MDAnalysis/coordinates/PDB.py:1282: UserWarning: Found no information for attr: 'formalcharges' Using default value of '0'
+  warnings.warn(
+${WORKSTATION_PROJECT}/envs/polymer-analysis/lib/python3.12/site-packages/MDAnalysis/coordinates/PDB.py:1324: UserWarning: Found chainIDs with invalid length. Corresponding atoms will use value of 'X'
+  warnings.warn(
+18:54:32 analysis complete

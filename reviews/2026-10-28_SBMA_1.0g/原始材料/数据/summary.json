@@ -1,0 +1,433 @@
+{
+  "system": "SBMA_1.0g",
+  "n_atoms": 36434,
+  "frames": 100001,
+  "raw_dt_ps": 0.10000000149011612,
+  "counts": {
+    "F3": 62,
+    "F4": 62,
+    "N3": 372,
+    "N4": 372,
+    "K": 434,
+    "W": 8558,
+    "Pplus": 110,
+    "SO": 330
+  },
+  "single_network_single_trajectory": true,
+  "rdf_sampling_ps": 10,
+  "transport_contact_sampling_ps": 1,
+  "limitations": [
+    "One network and one trajectory; block SD is not an independent-replicate confidence interval.",
+    "Continuous contact lifetimes resolved at 1 ps; shorter interruptions can be missed.",
+    "RDF uses global number-density normalization in an inhomogeneous gel.",
+    "Bulk transport estimates do not predict electrode kinetics, I-V or device response time."
+  ],
+  "volume_nm3": 345.38447457531,
+  "rdf_cutoffs": {
+    "N3_W": {
+      "peak_nm": 0.2625,
+      "cutoff_nm": 0.3225,
+      "smoothing_sigma_nm": 0.01
+    },
+    "N4_W": {
+      "peak_nm": 0.2575,
+      "cutoff_nm": 0.3075,
+      "smoothing_sigma_nm": 0.01
+    },
+    "N3_K": {
+      "peak_nm": 0.2625,
+      "cutoff_nm": 0.3425,
+      "smoothing_sigma_nm": 0.01
+    },
+    "N4_K": {
+      "peak_nm": 0.2575,
+      "cutoff_nm": 0.34750000000000003,
+      "smoothing_sigma_nm": 0.01
+    },
+    "N3_Pplus": {
+      "peak_nm": 0.4675000000000001,
+      "cutoff_nm": 0.5775,
+      "smoothing_sigma_nm": 0.01
+    },
+    "N4_Pplus": {
+      "resolved_first_shell": false,
+      "note": "No resolved first peak; use the paired oxidation-state geometric cutoff only for like-for-like proximity statistics"
+    },
+    "Pplus_W": {
+      "peak_nm": 0.4625,
+      "cutoff_nm": 0.6325000000000001,
+      "smoothing_sigma_nm": 0.01
+    },
+    "SO_W": {
+      "peak_nm": 0.2675,
+      "cutoff_nm": 0.3175,
+      "smoothing_sigma_nm": 0.01
+    }
+  },
+  "common_cutoffs_nm": {
+    "N3_W": 0.3225,
+    "N4_W": 0.3225,
+    "N3_K": 0.34750000000000003,
+    "N4_K": 0.34750000000000003,
+    "N3_Pplus": 0.5775,
+    "Pplus_W": 0.6325000000000001,
+    "SO_W": 0.3175,
+    "N4_Pplus": 0.5775
+  },
+  "contact_means": {
+    "F3_K_fraction": 0.6005980047156575,
+    "F3_K_number": 0.9415848737706876,
+    "F3_P_fraction": 0.2381326383490683,
+    "F3_P_number": 0.26867474542868297,
+    "F3_water_number": 18.8735400653483,
+    "F4_K_fraction": 1.0,
+    "F4_K_number": 4.471401246972077,
+    "F4_P_fraction": 0.06761581906325495,
+    "F4_P_number": 0.06806899955165772,
+    "F4_water_number": 13.653720111859784
+  },
+  "contact_block_sd": {
+    "F3_K_fraction": 0.01737318762307183,
+    "F3_K_number": 0.03628254672527854,
+    "F3_P_fraction": 0.009637447381422935,
+    "F3_P_number": 0.017381495198102278,
+    "F3_water_number": 0.10509152452503258,
+    "F4_K_fraction": 0.0,
+    "F4_K_number": 0.040550704351822967,
+    "F4_P_fraction": 0.012678750057006846,
+    "F4_P_number": 0.013015322865313123,
+    "F4_water_number": 0.1536472846758595
+  },
+  "lifetimes": {
+    "F3_K": {
+      "initial_contacts": 51,
+      "initial_contacts_remaining_at_end": 0,
+      "initial_contacts_remaining_fraction": 0.0,
+      "complete_events": 36821,
+      "right_censored": 65,
+      "median_ps": 2.0,
+      "final_survival": 3.189557146430208e-05,
+      "mean_event_duration_ps": 15.588984546861845,
+      "note": "1 ps sampled continuous contact; same molecule/site pair; no gap tolerance; left-censored events excluded"
+    },
+    "F4_K": {
+      "initial_contacts": 273,
+      "initial_contacts_remaining_at_end": 215,
+      "initial_contacts_remaining_fraction": 0.7875457875457875,
+      "complete_events": 26193,
+      "right_censored": 62,
+      "median_ps": 1.0,
+      "final_survival": 0.0012439906417929772,
+      "mean_event_duration_ps": 12.100790287481388,
+      "note": "1 ps sampled continuous contact; same molecule/site pair; no gap tolerance; left-censored events excluded"
+    },
+    "F3_Pplus": {
+      "initial_contacts": 23,
+      "initial_contacts_remaining_at_end": 0,
+      "initial_contacts_remaining_fraction": 0.0,
+      "complete_events": 18633,
+      "right_censored": 18,
+      "median_ps": 2.0,
+      "final_survival": 0.0,
+      "mean_event_duration_ps": 8.731658884774324,
+      "note": "1 ps sampled continuous contact; same molecule/site pair; no gap tolerance; left-censored events excluded"
+    },
+    "F4_Pplus": {
+      "initial_contacts": 7,
+      "initial_contacts_remaining_at_end": 0,
+      "initial_contacts_remaining_fraction": 0.0,
+      "complete_events": 6028,
+      "right_censored": 9,
+      "median_ps": 1.0,
+      "final_survival": 0.00017337528384825856,
+      "mean_event_duration_ps": 6.288984737889847,
+      "note": "1 ps sampled continuous contact; same molecule/site pair; no gap tolerance; left-censored events excluded"
+    },
+    "water_F3": {
+      "initial_contacts": 1174,
+      "initial_contacts_remaining_at_end": 0,
+      "initial_contacts_remaining_fraction": 0.0,
+      "complete_events": 783561,
+      "right_censored": 1169,
+      "median_ps": 5.0,
+      "final_survival": 0.0,
+      "mean_event_duration_ps": 14.855881035426725,
+      "note": "1 ps sampled continuous contact; same molecule/site pair; no gap tolerance; left-censored events excluded"
+    },
+    "water_F4": {
+      "initial_contacts": 870,
+      "initial_contacts_remaining_at_end": 0,
+      "initial_contacts_remaining_fraction": 0.0,
+      "complete_events": 471315,
+      "right_censored": 825,
+      "median_ps": 1.0,
+      "final_survival": 1.1324998010999064e-05,
+      "mean_event_duration_ps": 17.34079119060501,
+      "note": "1 ps sampled continuous contact; same molecule/site pair; no gap tolerance; left-censored events excluded"
+    },
+    "water_Pplus": {
+      "initial_contacts": 2380,
+      "initial_contacts_remaining_at_end": 1,
+      "initial_contacts_remaining_fraction": 0.0004201680672268908,
+      "complete_events": 2419574,
+      "right_censored": 2356,
+      "median_ps": 2.0,
+      "final_survival": 1.2536919767564024e-06,
+      "mean_event_duration_ps": 9.731602339916035,
+      "note": "1 ps sampled continuous contact; same molecule/site pair; no gap tolerance; left-censored events excluded"
+    },
+    "water_SO": {
+      "initial_contacts": 616,
+      "initial_contacts_remaining_at_end": 0,
+      "initial_contacts_remaining_fraction": 0.0,
+      "complete_events": 768137,
+      "right_censored": 602,
+      "median_ps": 3.0,
+      "final_survival": 0.0,
+      "mean_event_duration_ps": 7.910420927516836,
+      "note": "1 ps sampled continuous contact; same molecule/site pair; no gap tolerance; left-censored events excluded"
+    }
+  },
+  "diffusion": {
+    "FC3": {
+      "D_1e9_m2_s": 0.043905248282111196,
+      "intercept_nm2": 0.10182858019538761,
+      "R2": 0.9973914303168345,
+      "alpha": 0.7469920369991289,
+      "fit_ns": [
+        0.5,
+        2.0
+      ],
+      "block_D_1e9_m2_s": [
+        0.041844611805977566,
+        0.05596665417694888,
+        0.06380248462024599,
+        0.06118619904167436,
+        0.054984958313733935
+      ],
+      "block_SD": 0.008488235044620436,
+      "fit_window_sensitivity": [
+        {
+          "D_1e9_m2_s": 0.05326007146423231,
+          "intercept_nm2": 0.05610353257603927,
+          "R2": 0.9964304475255681,
+          "alpha": 0.7559155847149215,
+          "fit_ns": [
+            0.2,
+            1
+          ]
+        },
+        {
+          "D_1e9_m2_s": 0.041111675724434506,
+          "intercept_nm2": 0.12813498370263304,
+          "R2": 0.9997116848003623,
+          "alpha": 0.7737954656905957,
+          "fit_ns": [
+            1,
+            3
+          ]
+        },
+        {
+          "D_1e9_m2_s": 0.04113050726951527,
+          "intercept_nm2": 0.12663599995745622,
+          "R2": 0.9997609006421422,
+          "alpha": 0.8475309229885306,
+          "fit_ns": [
+            2,
+            4
+          ]
+        }
+      ],
+      "diffusive_regime_screen": false
+    },
+    "FC4": {
+      "D_1e9_m2_s": 0.027600091005504795,
+      "intercept_nm2": 0.0390486346717071,
+      "R2": 0.999578123193087,
+      "alpha": 0.8234938217113071,
+      "fit_ns": [
+        0.5,
+        2.0
+      ],
+      "block_D_1e9_m2_s": [
+        0.028930370480089524,
+        0.028823444719766892,
+        0.03250152046659244,
+        0.03502658861670286,
+        0.03801618095603966
+      ],
+      "block_SD": 0.0039668571921959534,
+      "fit_window_sensitivity": [
+        {
+          "D_1e9_m2_s": 0.031332399178316706,
+          "intercept_nm2": 0.021423798328164215,
+          "R2": 0.9987754185979282,
+          "alpha": 0.8213253015079568,
+          "fit_ns": [
+            0.2,
+            1
+          ]
+        },
+        {
+          "D_1e9_m2_s": 0.025771333087935524,
+          "intercept_nm2": 0.055595149521661884,
+          "R2": 0.9995425601526412,
+          "alpha": 0.8379027178155011,
+          "fit_ns": [
+            1,
+            3
+          ]
+        },
+        {
+          "D_1e9_m2_s": 0.024503492067568692,
+          "intercept_nm2": 0.07421258290704029,
+          "R2": 0.9998450571965909,
+          "alpha": 0.8498488322336472,
+          "fit_ns": [
+            2,
+            4
+          ]
+        }
+      ],
+      "diffusive_regime_screen": true
+    },
+    "K": {
+      "D_1e9_m2_s": 0.13504063304949246,
+      "intercept_nm2": 0.16409156778371606,
+      "R2": 0.9990644977665522,
+      "alpha": 0.8503745845915932,
+      "fit_ns": [
+        0.5,
+        2.0
+      ],
+      "block_D_1e9_m2_s": [
+        0.1686878888026336,
+        0.15344054890018055,
+        0.17351540032832405,
+        0.15873688001602343,
+        0.1604300652405805
+      ],
+      "block_SD": 0.008047987706540296,
+      "fit_window_sensitivity": [
+        {
+          "D_1e9_m2_s": 0.15461198637759332,
+          "intercept_nm2": 0.07055188709478012,
+          "R2": 0.9993937481871992,
+          "alpha": 0.8732735571680768,
+          "fit_ns": [
+            0.2,
+            1
+          ]
+        },
+        {
+          "D_1e9_m2_s": 0.12616700899357136,
+          "intercept_nm2": 0.24620740991413023,
+          "R2": 0.9997555507086988,
+          "alpha": 0.849814080618873,
+          "fit_ns": [
+            1,
+            3
+          ]
+        },
+        {
+          "D_1e9_m2_s": 0.12153443595220693,
+          "intercept_nm2": 0.3164116363046771,
+          "R2": 0.9999465503731024,
+          "alpha": 0.8690781038698256,
+          "fit_ns": [
+            2,
+            4
+          ]
+        }
+      ],
+      "diffusive_regime_screen": true
+    },
+    "water": {
+      "D_1e9_m2_s": 0.6437224459588468,
+      "intercept_nm2": 0.24875548357873706,
+      "R2": 0.9999771738970604,
+      "alpha": 0.9435331908342064,
+      "fit_ns": [
+        0.5,
+        2.0
+      ],
+      "block_D_1e9_m2_s": [
+        0.6533863987491905,
+        0.6698649095513965,
+        0.6767634090695095,
+        0.6759151913858293,
+        0.6860422687508811
+      ],
+      "block_SD": 0.0120980470236658,
+      "fit_window_sensitivity": [
+        {
+          "D_1e9_m2_s": 0.66502499336369,
+          "intercept_nm2": 0.1479986673187911,
+          "R2": 0.9998665706806175,
+          "alpha": 0.9334318326154957,
+          "fit_ns": [
+            0.2,
+            1
+          ]
+        },
+        {
+          "D_1e9_m2_s": 0.6378162600742249,
+          "intercept_nm2": 0.30350029712139065,
+          "R2": 0.9999962928219248,
+          "alpha": 0.9575665872317587,
+          "fit_ns": [
+            1,
+            3
+          ]
+        },
+        {
+          "D_1e9_m2_s": 0.6351623133229319,
+          "intercept_nm2": 0.34254627984906266,
+          "R2": 0.9999988592048186,
+          "alpha": 0.9692715619907954,
+          "fit_ns": [
+            2,
+            4
+          ]
+        }
+      ],
+      "diffusive_regime_screen": true
+    }
+  },
+  "conductivity": {
+    "NE_S_m": 1.9958592085296294,
+    "NE_contributions_S_m": {
+      "FC3": 0.44256093618859177,
+      "FC4": 0.4945891980152404,
+      "K": 1.0587090743257972
+    },
+    "correlated_mobile_ion_diagnostic_S_m": 1.2484999124708263,
+    "collective_fit": {
+      "D_1e9_m2_s": 69.11400744718604,
+      "intercept_nm2": 140.5036296098113,
+      "R2": 0.9862758748135328,
+      "alpha": 0.7195872034522061,
+      "fit_ns": [
+        0.5,
+        2.0
+      ]
+    },
+    "note": "NE ignores cross-correlations; collective estimate is diagnostic only for a single short trajectory; fixed neutral-network polarization excluded."
+  },
+  "temperature_K": 297.99724729807025,
+  "whole_system_COM_drift_nm": 0.0011956265909904308,
+  "source_files": {
+    "prod_10ns.xtc": {
+      "bytes": 13720363944,
+      "mtime": 1793143448.6997476
+    },
+    "prod_10ns.tpr": {
+      "bytes": 2999292,
+      "mtime": 1793121074.9858885
+    },
+    "prod_10ns.edr": {
+      "bytes": 5521216,
+      "mtime": 1793143448.718748
+    }
+  }
+}

@@ -1,0 +1,42 @@
+                      :-) GROMACS - gmx mdrun, 2025.4 (-:
+
+Executable:   ${WORKSTATION_PROJECT}/software/gromacs-2025.4/bin/gmx
+Data prefix:  ${WORKSTATION_PROJECT}/software/gromacs-2025.4
+Working dir:  ${WORKSTATION_PROJECT}/production_sbma_cbma_20261027/SBMA_1.0g
+Command line:
+  gmx mdrun -deffnm eq_npt_04 -ntmpi 1 -ntomp 4 -nb gpu -pme gpu -bonded cpu -update cpu -cpt 10
+
+Reading file eq_npt_04.tpr, VERSION 2025.4 (single precision)
+Can not increase nstlist because verlet-buffer-tolerance is not set or used
+Update groups can not be used for this system because atoms that are (in)directly constrained together are interdispersed with other atoms
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the CPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 4 OpenMP threads 
+
+
+NOTE: The number of threads is not equal to the number of (logical) cpus
+      and the -pin option is set to auto: will not pin threads to cpus.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+starting mdrun 'OPLS RESP SPC-E migration candidate'
+2000000 steps,   1000.0 ps.
+
+Writing final coordinates.
+
+NOTE: 43 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
+
+               Core t (s)   Wall t (s)        (%)
+       Time:    10026.793     2506.700      400.0
+                         41:46
+                 (ns/day)    (hour/ns)
+Performance:       34.468        0.696
+
+GROMACS reminds you: "Your Country Raised You, Your Country Fed You, and Just Like Any Other Country it Will Break You" (Gogol Bordello)
+

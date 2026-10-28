@@ -1,0 +1,241 @@
+{
+  "comparison": "alternative fitted core vs base fitted core; heavy and heavy-plus-attached-H groups",
+  "physical_validation": false,
+  "automatic_replacement": false,
+  "results": [
+    {
+      "fragment": "APTAC_homotrimer",
+      "core": "APTAC",
+      "neighbors": [
+        "APTAC",
+        "APTAC"
+      ],
+      "heavy_max_abs_delta_e": 0.2750825182,
+      "heavy_RMS_delta_e": 0.1575730946578553,
+      "group_max_abs_delta_e": 0.20114922929999998,
+      "group_RMS_delta_e": 0.09498118642447989
+    },
+    {
+      "fragment": "CBMA_homotrimer",
+      "core": "CBMA",
+      "neighbors": [
+        "CBMA",
+        "CBMA"
+      ],
+      "heavy_max_abs_delta_e": 0.47331361809999994,
+      "heavy_RMS_delta_e": 0.1735854367678808,
+      "group_max_abs_delta_e": 0.19491510509999999,
+      "group_RMS_delta_e": 0.08425953232669112
+    },
+    {
+      "fragment": "DADMAC_homotrimer",
+      "core": "DADMAC",
+      "neighbors": [
+        "DADMAC",
+        "DADMAC"
+      ],
+      "heavy_max_abs_delta_e": 0.28532782489999997,
+      "heavy_RMS_delta_e": 0.137126063721211,
+      "group_max_abs_delta_e": 0.1605546212,
+      "group_RMS_delta_e": 0.09161964808786678
+    },
+    {
+      "fragment": "KSPMA_homotrimer",
+      "core": "KSPMA",
+      "neighbors": [
+        "KSPMA",
+        "KSPMA"
+      ],
+      "heavy_max_abs_delta_e": 0.32368556940000004,
+      "heavy_RMS_delta_e": 0.10817177701098116,
+      "group_max_abs_delta_e": 0.07462661500000001,
+      "group_RMS_delta_e": 0.03892072660670717
+    },
+    {
+      "fragment": "MBAA_APTAC",
+      "core": "MBAA",
+      "neighbors": [
+        "APTAC",
+        "AAM",
+        "AAM",
+        "AAM"
+      ],
+      "heavy_max_abs_delta_e": 0.5819260735,
+      "heavy_RMS_delta_e": 0.2445766603118092,
+      "group_max_abs_delta_e": 0.35460944789999993,
+      "group_RMS_delta_e": 0.16550789688374065
+    },
+    {
+      "fragment": "MBAA_CBMA",
+      "core": "MBAA",
+      "neighbors": [
+        "CBMA",
+        "AAM",
+        "AAM",
+        "AAM"
+      ],
+      "heavy_max_abs_delta_e": 0.2397477858,
+      "heavy_RMS_delta_e": 0.13803773469862965,
+      "group_max_abs_delta_e": 0.19235553949999995,
+      "group_RMS_delta_e": 0.1104045792183634
+    },
+    {
+      "fragment": "MBAA_DADMAC",
+      "core": "MBAA",
+      "neighbors": [
+        "DADMAC",
+        "AAM",
+        "AAM",
+        "AAM"
+      ],
+      "heavy_max_abs_delta_e": 0.3542093745,
+      "heavy_RMS_delta_e": 0.1955571752054232,
+      "group_max_abs_delta_e": 0.3542093745,
+      "group_RMS_delta_e": 0.16878771582683724
+    },
+    {
+      "fragment": "MBAA_KSPMA",
+      "core": "MBAA",
+      "neighbors": [
+        "KSPMA",
+        "AAM",
+        "AAM",
+        "AAM"
+      ],
+      "heavy_max_abs_delta_e": 0.3656591232,
+      "heavy_RMS_delta_e": 0.17446321023278358,
+      "group_max_abs_delta_e": 0.2775070185,
+      "group_RMS_delta_e": 0.14256672237661305
+    },
+    {
+      "fragment": "MBAA_METAC",
+      "core": "MBAA",
+      "neighbors": [
+        "METAC",
+        "AAM",
+        "AAM",
+        "AAM"
+      ],
+      "heavy_max_abs_delta_e": 0.5872330244,
+      "heavy_RMS_delta_e": 0.3035922931700105,
+      "group_max_abs_delta_e": 0.38479452039999995,
+      "group_RMS_delta_e": 0.21795417861889
+    },
+    {
+      "fragment": "MBAA_MPC",
+      "core": "MBAA",
+      "neighbors": [
+        "MPC",
+        "AAM",
+        "AAM",
+        "AAM"
+      ],
+      "heavy_max_abs_delta_e": 0.2955252567,
+      "heavy_RMS_delta_e": 0.1502468601620566,
+      "group_max_abs_delta_e": 0.2444611685,
+      "group_RMS_delta_e": 0.10558314850628217
+    },
+    {
+      "fragment": "MBAA_NaAMPS",
+      "core": "MBAA",
+      "neighbors": [
+        "NaAMPS",
+        "AAM",
+        "AAM",
+        "AAM"
+      ],
+      "heavy_max_abs_delta_e": 0.31219638959999996,
+      "heavy_RMS_delta_e": 0.17590066249924874,
+      "group_max_abs_delta_e": 0.22261068219999997,
+      "group_RMS_delta_e": 0.12427089560174741
+    },
+    {
+      "fragment": "MBAA_SBAA",
+      "core": "MBAA",
+      "neighbors": [
+        "SBAA",
+        "AAM",
+        "AAM",
+        "AAM"
+      ],
+      "heavy_max_abs_delta_e": 0.300020325,
+      "heavy_RMS_delta_e": 0.1345403469093453,
+      "group_max_abs_delta_e": 0.2485973967,
+      "group_RMS_delta_e": 0.10612424977229769
+    },
+    {
+      "fragment": "MBAA_SBMA",
+      "core": "MBAA",
+      "neighbors": [
+        "SBMA",
+        "AAM",
+        "AAM",
+        "AAM"
+      ],
+      "heavy_max_abs_delta_e": 0.2171499321,
+      "heavy_RMS_delta_e": 0.0945567732847511,
+      "group_max_abs_delta_e": 0.2171499321,
+      "group_RMS_delta_e": 0.09931168475546956
+    },
+    {
+      "fragment": "METAC_homotrimer",
+      "core": "METAC",
+      "neighbors": [
+        "METAC",
+        "METAC"
+      ],
+      "heavy_max_abs_delta_e": 0.4240969499,
+      "heavy_RMS_delta_e": 0.14501306312311435,
+      "group_max_abs_delta_e": 0.2168063661,
+      "group_RMS_delta_e": 0.08654514373266775
+    },
+    {
+      "fragment": "MPC_homotrimer",
+      "core": "MPC",
+      "neighbors": [
+        "MPC",
+        "MPC"
+      ],
+      "heavy_max_abs_delta_e": 0.5097969372,
+      "heavy_RMS_delta_e": 0.22360541786208027,
+      "group_max_abs_delta_e": 0.5097969372,
+      "group_RMS_delta_e": 0.17130669420337868
+    },
+    {
+      "fragment": "NaAMPS_homotrimer",
+      "core": "NaAMPS",
+      "neighbors": [
+        "NaAMPS",
+        "NaAMPS"
+      ],
+      "heavy_max_abs_delta_e": 0.3382395122,
+      "heavy_RMS_delta_e": 0.11768187581014006,
+      "group_max_abs_delta_e": 0.12136380660000001,
+      "group_RMS_delta_e": 0.06367678111765836
+    },
+    {
+      "fragment": "SBAA_homotrimer",
+      "core": "SBAA",
+      "neighbors": [
+        "SBAA",
+        "SBAA"
+      ],
+      "heavy_max_abs_delta_e": 0.7129939033,
+      "heavy_RMS_delta_e": 0.27604276023798824,
+      "group_max_abs_delta_e": 0.47882727150000004,
+      "group_RMS_delta_e": 0.17514330472972792
+    },
+    {
+      "fragment": "SBMA_homotrimer",
+      "core": "SBMA",
+      "neighbors": [
+        "SBMA",
+        "SBMA"
+      ],
+      "heavy_max_abs_delta_e": 1.3181750771,
+      "heavy_RMS_delta_e": 0.38656095016687236,
+      "group_max_abs_delta_e": 0.6446048327000002,
+      "group_RMS_delta_e": 0.21615696585794256
+    }
+  ]
+}

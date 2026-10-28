@@ -1,0 +1,2244 @@
+[
+  {
+    "id": "AAM",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum_retry_internal/AAM/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "AAM",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum_retry_internal/AAM/core_constrained/stage2.chg",
+      "charge_sum_e": -1.9999940592541066e-10,
+      "core_charge_e": -2.220446049250313e-16,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "267dd6f05517a41feda039896d828f17a50aad43566f3c8ea5302842fad212e8",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "AAM",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -1.9999940592541066e-10,
+      "core_charge_e": -2.220446049250313e-16,
+      "stage1_errors": [
+        [
+          "0.001309",
+          "0.060199"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001657",
+          "0.076247"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        20,
+        21,
+        22,
+        25,
+        26,
+        27,
+        31,
+        32
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "0e96c0b159da1f3ef892069be189c785e9182af5ec4ea2ee1611739c4ab7f75a",
+      "completed": "2026-09-29T22:23:36.293111"
+    }
+  },
+  {
+    "id": "APTAC",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/APTAC/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "APTAC",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/APTAC/core_constrained/stage2.chg",
+      "charge_sum_e": 1.0000000001,
+      "core_charge_e": 1.0,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "a1a7c834e189ffb320a9c67078fdb5d7902c856cbbe18d323f1f1637890829c7",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "APTAC",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 1.0000000001,
+      "core_charge_e": 1.0,
+      "stage1_errors": [
+        [
+          "0.001411",
+          "0.015084"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001749",
+          "0.018694"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        15,
+        16,
+        17,
+        18,
+        21,
+        22,
+        23,
+        27,
+        28,
+        46,
+        47,
+        48,
+        52,
+        53
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "e0ed9bc2eae7f9424b6a79ccd847c295d0bc5367001e4471bc00789633d5bcc5",
+      "completed": "2026-09-29T22:33:51.177702"
+    }
+  },
+  {
+    "id": "APTAC_homotrimer",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/APTAC_homotrimer/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "APTAC_homotrimer",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/APTAC_homotrimer/core_constrained/stage2.chg",
+      "charge_sum_e": 3.0000000001000036,
+      "core_charge_e": 1.0000000007999998,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "f340449e93d0291960eab08c27eb1043a6fd9de62acc13b6c9298428aa809d75",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "APTAC_homotrimer",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 3.0000000001000036,
+      "core_charge_e": 1.0000000007999998,
+      "stage1_errors": [
+        [
+          "0.001537",
+          "0.007241"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001774",
+          "0.008361"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        15,
+        16,
+        17,
+        18,
+        22,
+        28,
+        29,
+        30,
+        34,
+        41,
+        42,
+        60,
+        61,
+        80
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "a4a92cc754e093e51b42e9295235ace34b4fd97a0988db39d64f425fac68db3e",
+      "completed": "2026-09-30T13:15:39.172737"
+    }
+  },
+  {
+    "id": "CBMA",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/CBMA/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "CBMA",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/CBMA/core_constrained/stage2.chg",
+      "charge_sum_e": -1.9999801814662987e-10,
+      "core_charge_e": -2.9999994155538445e-10,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "a2cee0d3515f102cc9257ea1e5410d7bb7efb590fc503db589301a487e265663",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "CBMA",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -1.9999801814662987e-10,
+      "core_charge_e": -2.9999994155538445e-10,
+      "stage1_errors": [
+        [
+          "0.001139",
+          "0.035005"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001706",
+          "0.052438"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        4,
+        5,
+        6,
+        9,
+        14,
+        15,
+        16,
+        19,
+        20,
+        21,
+        22,
+        25,
+        26,
+        27,
+        50,
+        51,
+        52,
+        56,
+        57
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "141b069753cca6d2e0e1ffa96faa79c8127514ede16ca6009028f27dea32203f",
+      "completed": "2026-09-29T22:41:53.066778"
+    }
+  },
+  {
+    "id": "CBMAH",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/CBMAH/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "CBMAH",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/CBMAH/core_constrained/stage2.chg",
+      "charge_sum_e": 1.0000000000999998,
+      "core_charge_e": 1.0000000001000002,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "2b6c68cb9a23e0cfe55a6bd0918c07d19e894e409c46871235d7796e5f9ff291",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "CBMAH",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 1.0000000000999998,
+      "core_charge_e": 1.0000000001000002,
+      "stage1_errors": [
+        [
+          "0.001185",
+          "0.012693"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001588",
+          "0.017018"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        4,
+        5,
+        6,
+        9,
+        14,
+        15,
+        16,
+        19,
+        20,
+        21,
+        22,
+        25,
+        26,
+        27,
+        48,
+        51,
+        52,
+        53,
+        57,
+        58
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "9f650ca88d7362f4e21389e09fa66baddefc129908214fcfa9ab36f3a6e9abf3",
+      "completed": "2026-09-29T23:51:20.711900"
+    }
+  },
+  {
+    "id": "CBMA_homotrimer",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/CBMA_homotrimer/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "CBMA_homotrimer",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/CBMA_homotrimer/core_constrained/stage2.chg",
+      "charge_sum_e": -1.0000450467728683e-10,
+      "core_charge_e": -2.0000051614843528e-10,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "efa9b2a9d113acefaade81144cb0e430c282965528a83374f7e09071dbe6db69",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "CBMA_homotrimer",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -1.0000450467728683e-10,
+      "core_charge_e": -2.0000051614843528e-10,
+      "stage1_errors": [
+        [
+          "0.001120",
+          "0.034745"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001555",
+          "0.048222"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        4,
+        5,
+        6,
+        9,
+        14,
+        15,
+        16,
+        19,
+        21,
+        22,
+        23,
+        26,
+        31,
+        32,
+        33,
+        35,
+        37,
+        38,
+        39,
+        42,
+        47,
+        48,
+        49,
+        50
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "e63e54c790d5771c69051b4d1110d3033dde9317897ff45a9ce7c9458a875f46",
+      "completed": "2026-09-30T20:34:43.357067"
+    }
+  },
+  {
+    "id": "DADMAC",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/DADMAC/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "DADMAC",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/DADMAC/core_constrained/stage2.chg",
+      "charge_sum_e": 1.000000000200001,
+      "core_charge_e": 0.9999999999000001,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "b70881a9531e580cb75551261883fccbdd576cfd57a6cf8162a7cec1f3e81d9c",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "DADMAC",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 1.000000000200001,
+      "core_charge_e": 0.9999999999000001,
+      "stage1_errors": [
+        [
+          "0.001302",
+          "0.013154"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001547",
+          "0.015629"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        4,
+        8,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        24,
+        35,
+        40,
+        41,
+        42,
+        46,
+        47
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "6d3955eaef6e0ca363c33f09493fa29a57ca3a4a3c82b2bda2cd2a0d432265b6",
+      "completed": "2026-09-29T21:29:18.240755"
+    }
+  },
+  {
+    "id": "DADMAC_homotrimer",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/DADMAC_homotrimer/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "DADMAC_homotrimer",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/DADMAC_homotrimer/core_constrained/stage2.chg",
+      "charge_sum_e": 2.9999999993999986,
+      "core_charge_e": 0.9999999994,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "4a4de47ed5b189d19c263f7a0d6433dbe9646f6e49a1ac778a5c74ae6218cd9f",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "DADMAC_homotrimer",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 2.9999999993999986,
+      "core_charge_e": 0.9999999994,
+      "stage1_errors": [
+        [
+          "0.001121",
+          "0.004448"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001519",
+          "0.006028"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        4,
+        8,
+        12,
+        14,
+        18,
+        21,
+        23,
+        27,
+        32,
+        43,
+        48,
+        59,
+        64,
+        75
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "dcf76619d0c747fef38deaa792fd5277f1e6996d8f9cbc460d980037a2572c2f",
+      "completed": "2026-09-30T02:03:57.746094"
+    }
+  },
+  {
+    "id": "DADMAC_stereo1",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum_recovery/DADMAC_stereo1/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "DADMAC_stereo1",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum_recovery/DADMAC_stereo1/core_constrained/stage2.chg",
+      "charge_sum_e": 0.9999999999000002,
+      "core_charge_e": 1.0000000000999998,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "abc4c038f77bfb22ad2d094a85a99a02f479a87ce6ea789559bb9460bd28ed9a",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "DADMAC_stereo1",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 0.9999999999000002,
+      "core_charge_e": 1.0000000000999998,
+      "stage1_errors": [
+        [
+          "0.001160",
+          "0.011288"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001376",
+          "0.013397"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        30,
+        33,
+        40,
+        41,
+        42,
+        46,
+        47
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "59e39d58fe9786689a4ae18ad15f7c6106b082fe5319c44756446a3f2513b686",
+      "completed": "2026-09-29T22:22:24.571439"
+    }
+  },
+  {
+    "id": "DADMAC_stereo2",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/DADMAC_stereo2/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "DADMAC_stereo2",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/DADMAC_stereo2/core_constrained/stage2.chg",
+      "charge_sum_e": 0.9999999998999989,
+      "core_charge_e": 0.9999999998,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "3f0a89782478c89fec3df809f3dff51268cc3d9f2f2888d2a292a76aff25bfd1",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "DADMAC_stereo2",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 0.9999999998999989,
+      "core_charge_e": 0.9999999998,
+      "stage1_errors": [
+        [
+          "0.001208",
+          "0.011655"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001412",
+          "0.013626"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        30,
+        33,
+        40,
+        41,
+        42,
+        46,
+        47
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "2dc1ad5643f023282b01a5de565a163c0b14cbc8e0c8456d0d36fbb7f963757a",
+      "completed": "2026-09-29T21:40:39.139994"
+    }
+  },
+  {
+    "id": "DADMAC_stereo3",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/DADMAC_stereo3/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "DADMAC_stereo3",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/DADMAC_stereo3/core_constrained/stage2.chg",
+      "charge_sum_e": 1.0000000001000007,
+      "core_charge_e": 0.9999999999000001,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "df6dafb7b60a4e1a9a931d499ae2243dff5d80b4afe97df7a596c4fcfab0c94b",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "DADMAC_stereo3",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 1.0000000001000007,
+      "core_charge_e": 0.9999999999000001,
+      "stage1_errors": [
+        [
+          "0.001242",
+          "0.012292"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001423",
+          "0.014075"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        30,
+        33,
+        40,
+        41,
+        42,
+        46,
+        47
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "d5f0339b37fc971aaad47929e4c0934a8c5a216acd3f67f9476f2242c34d8d47",
+      "completed": "2026-09-29T21:53:42.863623"
+    }
+  },
+  {
+    "id": "DADMAC_stereo4",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/DADMAC_stereo4/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "DADMAC_stereo4",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/DADMAC_stereo4/core_constrained/stage2.chg",
+      "charge_sum_e": 1.0000000001000005,
+      "core_charge_e": 1.0000000001999996,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "75809f534a800b3ae4db9bebf4942b5becbf7f0456544bae50552d874696a177",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "DADMAC_stereo4",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 1.0000000001000005,
+      "core_charge_e": 1.0000000001999996,
+      "stage1_errors": [
+        [
+          "0.001185",
+          "0.011700"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001368",
+          "0.013505"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        30,
+        33,
+        40,
+        41,
+        42,
+        46,
+        47
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "5bacdd81277fa7a32535e85428751bf88b8fd9a8f8c53526c9cd18347fee4ecc",
+      "completed": "2026-09-29T21:54:50.044804"
+    }
+  },
+  {
+    "id": "KSPMA",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/KSPMA/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "KSPMA",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/KSPMA/core_constrained/stage2.chg",
+      "charge_sum_e": -0.9999999997999995,
+      "core_charge_e": -0.9999999998000004,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "442ccc178f21e8a335f486b964e67528c83a931a2e71d85b7aa994d0fa32898b",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "KSPMA",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -0.9999999997999995,
+      "core_charge_e": -0.9999999998000004,
+      "stage1_errors": [
+        [
+          "0.001339",
+          "0.013735"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001460",
+          "0.014982"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13,
+        16,
+        17,
+        18,
+        19,
+        22,
+        23,
+        24,
+        39,
+        40,
+        41,
+        45,
+        46
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "bf9941fc55df297ef8fd200402e1817296beba2c6e4200abc0b21e216f760d54",
+      "completed": "2026-09-29T20:59:18.407077"
+    }
+  },
+  {
+    "id": "KSPMA_homotrimer",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/KSPMA_homotrimer/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "KSPMA_homotrimer",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/KSPMA_homotrimer/core_constrained/stage2.chg",
+      "charge_sum_e": -3.0000000003999987,
+      "core_charge_e": -1.0000000002,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "a17e51de8b9764db75dfb34c19570b8ab4cdf620fbaeb65165374b5a5f29ffc4",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "KSPMA_homotrimer",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -3.0000000003999987,
+      "core_charge_e": -1.0000000002,
+      "stage1_errors": [
+        [
+          "0.001561",
+          "0.007739"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001830",
+          "0.009075"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13,
+        16,
+        18,
+        19,
+        20,
+        24,
+        25,
+        26,
+        27,
+        29,
+        31,
+        32,
+        33,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "61c5cfe8b4df9ee59cccab3dba67ee59085ee9b90fe07c2b0fb31c489aa011b0",
+      "completed": "2026-09-30T00:49:03.024308"
+    }
+  },
+  {
+    "id": "MBAA",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum_retry_crosslink/MBAA/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "MBAA",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum_retry_crosslink/MBAA/core_constrained/stage2.chg",
+      "charge_sum_e": -2.000007381930402e-10,
+      "core_charge_e": 8.326672684688674e-17,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "81ee997c52839c612ac0ba0aa1e1bf7fb67492d173cc670e58a07c2c530d2294",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "MBAA",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -2.000007381930402e-10,
+      "core_charge_e": 8.326672684688674e-17,
+      "stage1_errors": [
+        [
+          "0.001403",
+          "0.059105"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001817",
+          "0.076523"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15,
+        16,
+        17,
+        20,
+        21,
+        22,
+        26,
+        27,
+        28,
+        29,
+        32,
+        33,
+        34,
+        38,
+        39,
+        42,
+        43,
+        48,
+        49,
+        50,
+        54,
+        55,
+        58,
+        59,
+        60,
+        64,
+        65
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "81e6794bddbe2d9aa459935041418de92ed1f987bdd4f81b624d10f5368fb83f",
+      "completed": "2026-09-30T18:28:11.886797"
+    }
+  },
+  {
+    "id": "MBAA_APTAC",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum_retry_crosslink/MBAA_APTAC/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "MBAA_APTAC",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum_retry_crosslink/MBAA_APTAC/core_constrained/stage2.chg",
+      "charge_sum_e": 1.0000000001000005,
+      "core_charge_e": -2.0000025247046693e-10,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "602d15035b7045c658f429ffe8621edeb59f0c96e32a610e0fd6fecec0b7da25",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "MBAA_APTAC",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 1.0000000001000005,
+      "core_charge_e": -2.0000025247046693e-10,
+      "stage1_errors": [
+        [
+          "0.001432",
+          "0.018896"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001700",
+          "0.022428"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15,
+        16,
+        17,
+        21,
+        27,
+        28,
+        29,
+        33,
+        34,
+        35,
+        36,
+        39,
+        40,
+        41,
+        45,
+        46,
+        49,
+        50,
+        55,
+        56,
+        75,
+        76,
+        79,
+        80,
+        81,
+        85,
+        86
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "2cce0bdb878830323d97f646002f44dc235b48b3d175f782588a080bcff39f03",
+      "completed": "2026-10-01T01:10:21.646783"
+    }
+  },
+  {
+    "id": "MBAA_CBMA",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MBAA_CBMA/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "MBAA_CBMA",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MBAA_CBMA/core_constrained/stage2.chg",
+      "charge_sum_e": -2.7755575615628914e-16,
+      "core_charge_e": 3.000001896208415e-10,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "8e0d3fe7d7d8d7af780270fa9b91160fe0395a03d146c4e1ef3f47ad089aafd0",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "MBAA_CBMA",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -2.7755575615628914e-16,
+      "core_charge_e": 3.000001896208415e-10,
+      "stage1_errors": [
+        [
+          "0.001223",
+          "0.039474"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001623",
+          "0.052349"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        14,
+        16,
+        17,
+        18,
+        21,
+        26,
+        27,
+        28,
+        31,
+        32,
+        33,
+        37,
+        38,
+        39,
+        40,
+        43,
+        44,
+        45,
+        49,
+        50,
+        53,
+        54,
+        79,
+        80,
+        83,
+        84,
+        85,
+        89,
+        90
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "ae0d0ef62260cf738c5e181340dacb0a5b3859c3faea513d35e0f716924061c4",
+      "completed": "2026-09-30T12:33:11.059943"
+    }
+  },
+  {
+    "id": "MBAA_DADMAC",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MBAA_DADMAC/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "MBAA_DADMAC",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MBAA_DADMAC/core_constrained/stage2.chg",
+      "charge_sum_e": 0.9999999996000002,
+      "core_charge_e": 2.2898349882893854e-16,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "ccba6cb0404a8b009f71bbfa9ad20ac1ef1cfccb680ea9d7cfba5e45fa89d8eb",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "MBAA_DADMAC",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 0.9999999996000002,
+      "core_charge_e": 2.2898349882893854e-16,
+      "stage1_errors": [
+        [
+          "0.001371",
+          "0.017441"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001628",
+          "0.020712"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        14,
+        16,
+        20,
+        24,
+        25,
+        26,
+        30,
+        31,
+        32,
+        33,
+        36,
+        37,
+        38,
+        42,
+        43,
+        46,
+        47,
+        52,
+        63,
+        69,
+        70,
+        73,
+        74,
+        75,
+        79,
+        80
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "87b400b672a4491c75b7c9059482a72b58cbd6cd86b8ea77386f15f6ddfea923",
+      "completed": "2026-09-30T04:52:06.370815"
+    }
+  },
+  {
+    "id": "MBAA_KSPMA",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MBAA_KSPMA/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "MBAA_KSPMA",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MBAA_KSPMA/core_constrained/stage2.chg",
+      "charge_sum_e": -1.0000000002,
+      "core_charge_e": -9.999989031284073e-11,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "56f2d411ae46715cea306ffb692fb6d19420e74e95a449a08af5426a19581bbc",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "MBAA_KSPMA",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -1.0000000002,
+      "core_charge_e": -9.999989031284073e-11,
+      "stage1_errors": [
+        [
+          "0.001446",
+          "0.017724"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001587",
+          "0.019454"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        14,
+        16,
+        17,
+        18,
+        22,
+        23,
+        24,
+        25,
+        28,
+        29,
+        30,
+        34,
+        35,
+        36,
+        37,
+        40,
+        41,
+        42,
+        46,
+        47,
+        50,
+        51,
+        68,
+        69,
+        72,
+        73,
+        74,
+        78,
+        79
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "d32c07a8f25fcfa9525d2a17f6369a4c1fee2cfcd88c94b2cc7197eff5a09a81",
+      "completed": "2026-09-30T03:40:14.863818"
+    }
+  },
+  {
+    "id": "MBAA_METAC",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum_retry_metac_final/MBAA_METAC/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "MBAA_METAC",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum_retry_metac_final/MBAA_METAC/core_constrained/stage2.chg",
+      "charge_sum_e": 1.0000000001999996,
+      "core_charge_e": 2.999999797193009e-10,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "937a5148fde3b675580eb1eb698ac4f8bc4fa42333b58c98a9d0534e443b9041",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "MBAA_METAC",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 1.0000000001999996,
+      "core_charge_e": 2.999999797193009e-10,
+      "stage1_errors": [
+        [
+          "0.001343",
+          "0.016399"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001905",
+          "0.023254"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        14,
+        16,
+        17,
+        18,
+        21,
+        27,
+        28,
+        29,
+        33,
+        34,
+        35,
+        36,
+        39,
+        40,
+        41,
+        45,
+        46,
+        49,
+        50,
+        74,
+        75,
+        78,
+        79,
+        80,
+        84,
+        85
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "373c6206744cc3922f3ccf366591652770ba82388a29d2739e1d1f69e918beda",
+      "completed": "2026-10-01T02:17:56.298060"
+    }
+  },
+  {
+    "id": "MBAA_MPC",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MBAA_MPC/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "MBAA_MPC",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MBAA_MPC/core_constrained/stage2.chg",
+      "charge_sum_e": 5.000045932845865e-10,
+      "core_charge_e": 2.9999993461649055e-10,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "b67b51e975bd7327b443c27a3881199deca01af29cfa8a024d9210e6971eb99f",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "MBAA_MPC",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 5.000045932845865e-10,
+      "core_charge_e": 2.9999993461649055e-10,
+      "stage1_errors": [
+        [
+          "0.001463",
+          "0.050221"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.002136",
+          "0.073317"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        14,
+        16,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        25,
+        28,
+        34,
+        35,
+        36,
+        40,
+        41,
+        42,
+        43,
+        46,
+        47,
+        48,
+        52,
+        53,
+        56,
+        57,
+        85,
+        86,
+        89,
+        90,
+        91,
+        95,
+        96
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "11a06b73dfa466ecf274649db0050ad3540baa9c028c229d5c4800076f7cb0fc",
+      "completed": "2026-09-30T19:10:00.263183"
+    }
+  },
+  {
+    "id": "MBAA_NaAMPS",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MBAA_NaAMPS/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "MBAA_NaAMPS",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MBAA_NaAMPS/core_constrained/stage2.chg",
+      "charge_sum_e": -0.9999999999000011,
+      "core_charge_e": 9.999987296560597e-11,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "0eeab3ad8774a5510839dead8b8e3f9a2ae2c194ec909a2d3274966f5d0963e5",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "MBAA_NaAMPS",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -0.9999999999000011,
+      "core_charge_e": 9.999987296560597e-11,
+      "stage1_errors": [
+        [
+          "0.001462",
+          "0.018098"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001824",
+          "0.022578"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15,
+        16,
+        17,
+        18,
+        22,
+        23,
+        24,
+        25,
+        28,
+        29,
+        30,
+        34,
+        35,
+        36,
+        37,
+        40,
+        41,
+        42,
+        46,
+        47,
+        50,
+        51,
+        56,
+        57,
+        69,
+        70,
+        73,
+        74,
+        75,
+        79,
+        80
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "2e5a5b3a525ca162ed2941d3c479bed7851bbb50faaf5bd3382f84f7b16452c4",
+      "completed": "2026-09-30T05:06:13.941701"
+    }
+  },
+  {
+    "id": "MBAA_SBAA",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MBAA_SBAA/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "MBAA_SBAA",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MBAA_SBAA/core_constrained/stage2.chg",
+      "charge_sum_e": -3.00000913000531e-10,
+      "core_charge_e": -1.6653345369377348e-16,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "ff9e07463352b38e65393475b3d98117f3ca5412f6a618b541fea6dd06677a26",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "MBAA_SBAA",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -3.00000913000531e-10,
+      "core_charge_e": -1.6653345369377348e-16,
+      "stage1_errors": [
+        [
+          "0.001439",
+          "0.043337"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.002000",
+          "0.060248"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15,
+        16,
+        17,
+        21,
+        27,
+        28,
+        29,
+        30,
+        33,
+        34,
+        35,
+        39,
+        40,
+        41,
+        42,
+        45,
+        46,
+        47,
+        51,
+        52,
+        55,
+        56,
+        61,
+        62,
+        84,
+        85,
+        88,
+        89,
+        90,
+        94,
+        95
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "155ae45ceb2359243a321b87f79837f632dacc261e024d19ff27915ab15a1fa9",
+      "completed": "2026-09-30T15:25:30.309691"
+    }
+  },
+  {
+    "id": "MBAA_SBMA",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MBAA_SBMA/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "MBAA_SBMA",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MBAA_SBMA/core_constrained/stage2.chg",
+      "charge_sum_e": 6.999953949815563e-10,
+      "core_charge_e": 0.0,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "5cecf3c3d68f45264b49a0f496fcec5796c255e243f20d25b22482854ad36e77",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "MBAA_SBMA",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 6.999953949815563e-10,
+      "core_charge_e": 0.0,
+      "stage1_errors": [
+        [
+          "0.001331",
+          "0.049625"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001841",
+          "0.068623"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        14,
+        16,
+        17,
+        18,
+        21,
+        27,
+        28,
+        29,
+        30,
+        33,
+        34,
+        35,
+        39,
+        40,
+        41,
+        42,
+        45,
+        46,
+        47,
+        51,
+        52,
+        55,
+        56,
+        83,
+        84,
+        87,
+        88,
+        89,
+        93,
+        94
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "1be768779985aea49dfbecb560da5575e866a932f8e1ba12772d2d086f3127d2",
+      "completed": "2026-09-30T14:29:06.353279"
+    }
+  },
+  {
+    "id": "METAC",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/METAC/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "METAC",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/METAC/core_constrained/stage2.chg",
+      "charge_sum_e": 1.0000000002000011,
+      "core_charge_e": 1.0000000002999998,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "b0d25d804b1d472793fd67ec69fae93f3a4eb68975f0519b7df8bc74d387cc76",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "METAC",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 1.0000000002000011,
+      "core_charge_e": 1.0000000002999998,
+      "stage1_errors": [
+        [
+          "0.001110",
+          "0.011282"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001415",
+          "0.014384"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        4,
+        5,
+        6,
+        9,
+        15,
+        16,
+        17,
+        18,
+        21,
+        22,
+        23,
+        45,
+        46,
+        47,
+        51,
+        52
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "41404ed78f7a141da093a1c0a4158ddd0f8399fce1c1494cad15016a143160d1",
+      "completed": "2026-09-29T22:13:31.880011"
+    }
+  },
+  {
+    "id": "METAC_homotrimer",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/METAC_homotrimer/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "METAC_homotrimer",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/METAC_homotrimer/core_constrained/stage2.chg",
+      "charge_sum_e": 3.000000000099998,
+      "core_charge_e": 1.0000000005999998,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "562fb24a89150803470ee004a58796c2efa510983c08ff3379051c4aa08a392e",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "METAC_homotrimer",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 3.000000000099998,
+      "core_charge_e": 1.0000000005999998,
+      "stage1_errors": [
+        [
+          "0.001294",
+          "0.005863"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001830",
+          "0.008289"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        4,
+        5,
+        6,
+        9,
+        15,
+        17,
+        18,
+        19,
+        22,
+        27,
+        29,
+        30,
+        31,
+        34,
+        38
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "554487b5ae606c225a1b54a04fe86ea0f2e17c1f483b4378d2d5bc27b4a5e932",
+      "completed": "2026-09-30T10:28:59.853480"
+    }
+  },
+  {
+    "id": "MPC",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MPC/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "MPC",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/MPC/core_constrained/stage2.chg",
+      "charge_sum_e": 4.0000097678571933e-10,
+      "core_charge_e": 4.0000008860729963e-10,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "92be389972d659d5117c12051d3d45c6623a33821397e5b5980ede8657edef36",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "MPC",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 4.0000097678571933e-10,
+      "core_charge_e": 4.0000008860729963e-10,
+      "stage1_errors": [
+        [
+          "0.001251",
+          "0.032908"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.002027",
+          "0.053306"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        16,
+        22,
+        23,
+        24,
+        25,
+        28,
+        29,
+        30,
+        56,
+        57,
+        58,
+        62,
+        63
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "68956aca265440b5cd72b64bb1a2561e7bd746043166b2cf107218a6205236e3",
+      "completed": "2026-09-30T00:07:03.194944"
+    }
+  },
+  {
+    "id": "MPC_homotrimer",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum_retry_mpc_timeout/MPC_homotrimer/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "MPC_homotrimer",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum_retry_mpc_timeout/MPC_homotrimer/core_constrained/stage2.chg",
+      "charge_sum_e": -1.9999910061407888e-10,
+      "core_charge_e": 2.0000029410383036e-10,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "9aa35c09cf58c3bb27e39c7d5d518821cfcd843a045aa331c9d9a63d538596f6",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "MPC_homotrimer",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -1.9999910061407888e-10,
+      "core_charge_e": 2.0000029410383036e-10,
+      "stage1_errors": [
+        [
+          "0.001302",
+          "0.050874"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.002877",
+          "0.112396"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        16,
+        22,
+        24,
+        25,
+        26,
+        29,
+        30,
+        31,
+        32,
+        33,
+        36,
+        41,
+        43,
+        44,
+        45,
+        48,
+        49,
+        50,
+        51,
+        52,
+        55,
+        59
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "6b6400053fb8a69004fff2ddd69baf3841601e6e41081e948673718c7d358129",
+      "completed": "2026-10-01T23:32:49.657067"
+    }
+  },
+  {
+    "id": "NaAMPS",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/NaAMPS/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "NaAMPS",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/NaAMPS/core_constrained/stage2.chg",
+      "charge_sum_e": -0.9999999997999991,
+      "core_charge_e": -0.9999999998000003,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "dbd248671eed630318245fdc53c890235ee774ba8b0bd8ff0987d535f7391c36",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "NaAMPS",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -0.9999999997999991,
+      "core_charge_e": -0.9999999998000003,
+      "stage1_errors": [
+        [
+          "0.001150",
+          "0.011996"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001688",
+          "0.017612"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13,
+        16,
+        17,
+        18,
+        19,
+        22,
+        23,
+        24,
+        28,
+        29,
+        40,
+        41,
+        42,
+        46,
+        47
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "8c0fb91788766015579f3e478a8e0ab671fc27980476b03a0c6df7fc3b983030",
+      "completed": "2026-09-29T21:31:03.887480"
+    }
+  },
+  {
+    "id": "NaAMPS_homotrimer",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/NaAMPS_homotrimer/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "NaAMPS_homotrimer",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/NaAMPS_homotrimer/core_constrained/stage2.chg",
+      "charge_sum_e": -2.9999999998999956,
+      "core_charge_e": -0.9999999999999998,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "0082174077fe4a2503073b8bbfc77a2e661710b3572bb9d22baac0a02c472946",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "NaAMPS_homotrimer",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -2.9999999998999956,
+      "core_charge_e": -0.9999999999999998,
+      "stage1_errors": [
+        [
+          "0.001213",
+          "0.005671"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.002035",
+          "0.009514"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13,
+        16,
+        17,
+        18,
+        19,
+        20,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        32,
+        33,
+        37,
+        38,
+        39,
+        40,
+        44,
+        45,
+        56,
+        57,
+        69
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "9f2e4a2e282a1d206fd6795901957d162c6512b3e769f016f4f6d655f3f3c0da",
+      "completed": "2026-09-30T01:38:04.697609"
+    }
+  },
+  {
+    "id": "SBAA",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/SBAA/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "SBAA",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/SBAA/core_constrained/stage2.chg",
+      "charge_sum_e": -9.999867600640755e-11,
+      "core_charge_e": -1.000005356299738e-10,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "c118d0e3af17fb87317c252a90ddd726827b3367528216119fc4792fcbe1bc38",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "SBAA",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -9.999867600640755e-11,
+      "core_charge_e": -1.000005356299738e-10,
+      "stage1_errors": [
+        [
+          "0.001409",
+          "0.042924"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.002305",
+          "0.070204"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        15,
+        16,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        27,
+        28,
+        29,
+        33,
+        34,
+        55,
+        56,
+        57,
+        61,
+        62
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "c4d8b7e2fd5a9bb57849d5a2e2090776c162767ed874b77523014e8a32eb838a",
+      "completed": "2026-09-29T23:13:18.351562"
+    }
+  },
+  {
+    "id": "SBAA_homotrimer",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/SBAA_homotrimer/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "SBAA_homotrimer",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/SBAA_homotrimer/core_constrained/stage2.chg",
+      "charge_sum_e": -4.0000404377682486e-10,
+      "core_charge_e": 2.7755575615628914e-16,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "4ae3c444434cf16f0cba5f48ac5ccc51273ee6fcb5e184909f632484cabd3fbf",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "SBAA_homotrimer",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -4.0000404377682486e-10,
+      "core_charge_e": 2.7755575615628914e-16,
+      "stage1_errors": [
+        [
+          "0.001304",
+          "0.039612"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.002204",
+          "0.066974"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        15,
+        16,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        28,
+        34,
+        35,
+        36,
+        37,
+        40,
+        41,
+        42,
+        46,
+        52,
+        53,
+        54,
+        55,
+        59,
+        60,
+        81,
+        82,
+        104
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "4a3734c610abea84a12ea5ab3182b3b2e24045b454301e33029e768d73b23170",
+      "completed": "2026-10-01T01:25:54.980866"
+    }
+  },
+  {
+    "id": "SBMA",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/SBMA/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "SBMA",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/SBMA/core_constrained/stage2.chg",
+      "charge_sum_e": 2.999993586882965e-10,
+      "core_charge_e": 3.0000013584441376e-10,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "81789c6864f693bafeab112942d2e429ff2cb8edfa81ed6185a72daddff1dfe9",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "SBMA",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": 2.999993586882965e-10,
+      "core_charge_e": 3.0000013584441376e-10,
+      "stage1_errors": [
+        [
+          "0.001314",
+          "0.039133"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.002065",
+          "0.061508"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        4,
+        5,
+        6,
+        9,
+        15,
+        16,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        27,
+        28,
+        29,
+        54,
+        55,
+        56,
+        60,
+        61
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "7c88a00c8049ea58e63b11b53538195d909479306c4e93a002a996221282c0b9",
+      "completed": "2026-09-29T20:40:35.375923"
+    }
+  },
+  {
+    "id": "SBMA_homotrimer",
+    "source_charge_file": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/SBMA_homotrimer/core_constrained/stage2.chg",
+    "integration_audit": {
+      "id": "SBMA_homotrimer",
+      "status": "fragment_candidate_complete",
+      "charge_source": "${WORKSTATION_PROJECT}/opls_resp_spce_20260929/quantum/SBMA_homotrimer/core_constrained/stage2.chg",
+      "charge_sum_e": -1.0000311689850605e-10,
+      "core_charge_e": 4.0000031065190456e-10,
+      "noncharge_terms_identical_to_audited_OPLS": true,
+      "parameter_sha256": "7bd97a2013a9f54f6e0ad5759b4e4d7599185a96d0d71cc1e7beb0ca0adb12e0",
+      "network_migration_complete": false,
+      "physical_validation": false
+    },
+    "status.json": {
+      "id": "SBMA_homotrimer",
+      "status": "core_candidate_complete",
+      "network_charge_transfer": false,
+      "physical_validation": false,
+      "sum_charge_e": -1.0000311689850605e-10,
+      "core_charge_e": 4.0000031065190456e-10,
+      "stage1_errors": [
+        [
+          "0.001391",
+          "0.034866"
+        ]
+      ],
+      "stage2_errors": [
+        [
+          "0.001938",
+          "0.048575"
+        ]
+      ],
+      "fixed_atoms": [
+        2,
+        4,
+        5,
+        6,
+        9,
+        15,
+        16,
+        17,
+        18,
+        21,
+        23,
+        24,
+        25,
+        28,
+        34,
+        35,
+        36,
+        37,
+        39,
+        41,
+        42,
+        43,
+        46,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "postfit_redistribution": false,
+      "wavefunction_sha256": "56dc2101cc8e542cb0fce252f8e4a4b453b30b95a53dc0e5b7adf72cf890dbdb",
+      "completed": "2026-10-01T01:08:58.642295"
+    }
+  }
+]

@@ -1,0 +1,8 @@
+metric,FC3,FC4,unit_or_definition
+apparent_D,0.043905248282111196,0.027600091005504795,"1e-9 m2/s; 0.5-2 ns fit, provisional"
+MSD_alpha,0.7469920369991289,0.8234938217113071,log-log slope in fit window
+K_contact_fraction,0.6005980047156575,1.0,fraction of redox ions with at least one K contact
+K_number_per_redox,0.9415848737706876,4.471401246972077,distinct K within common cutoff
+Pplus_contact_fraction,0.2381326383490683,0.06761581906325495,"geometric proximity, not proof of specific binding"
+initial_K_contacts_remaining_10ns,0.0,0.7875457875457875,"single initial cohort; remaining time, not full lifetime"
+NE_conductivity,1.9958592085296294,,S/m; provisional; correlations omitted
